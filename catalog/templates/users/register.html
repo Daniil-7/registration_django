@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h2>Pегистрация</h2>
+
+<form method="post">
+    {% csrf_token %}
+    {{form}}
+    <div class='center'><br><input type="submit" value="регистрация" class='waves-effect waves-light btn'><br></div>
+</form>
+<h5><a href="{% url 'login' %}">Назад</a></h5>
+{% endblock %}
