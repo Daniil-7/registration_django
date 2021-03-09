@@ -134,7 +134,7 @@ LOGOUT_REDIRECT_URL = 'index'
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "yas66yelchili@gmail.com"
-EMAIL_HOST_PASSWORD = "2012NweQ."
+EMAIL_HOST_USER = "gmail"
+EMAIL_HOST_PASSWORD = "password"
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
